@@ -1,1 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chopo.GZ — Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact and links for Chopo.GZ">
+  <style>
+    :root { --bg:#0f1216; --card:#151a22; --text:#e6edf3; --muted:#9aa6b2; --accent:#4cc2ff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width: 720px; margin: 8vh auto; padding: 24px; }
+    .card { background:var(--card); border:1px solid #222a35; border-radius:14px; padding:28px; box-shadow: 0 8px 18px rgba(0,0,0,0.25); }
+    h1 { margin:0 0 8px; font-size: 1.8rem; }
+    p.subtitle { margin:0 0 18px; color:var(--muted); }
+    .grid { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+    .link { display:block; padding:14px 16px; border:1px solid #273043; border-radius:10px; background:#10161f; color:var(--text); text-decoration:none; transition: border-color .2s, transform .1s; }
+    .link:hover { border-color:var(--accent); transform: translateY(-1px); }
+    .label { display:block; font-size:.85rem; color:var(--muted); margin-bottom:6px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size:.95rem; }
+    footer { margin-top:18px; font-size:.85rem; color:var(--muted); }
+    @media (max-width:640px){ .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Chopo.GZ</h1>
+      <p class="subtitle">Direct contact and verified links</p>
 
+      <div class="grid">
+        <a class="link" href="mailto:you@example.com">
+          <span class="label">Email</span>
+          <span class="mono">you@example.com</span>
+        </a>
+
+        <a class="link" href="tel:+15551234567">
+          <span class="label">Phone</span>
+          <span class="mono">+1 555 123 4567</span>
+        </a>
+
+        <a class="link" href="https://github.com/chopogz" target="_blank" rel="noopener">
+          <span class="label">GitHub</span>
+          <span class="mono">github.com/chopogz</span>
+        </a>
+
+        <a class="link" href="https://yourdomain.com" target="_blank" rel="noopener">
+          <span class="label">Website</span>
+          <span class="mono">yourdomain.com</span>
+        </a>
+
+        <a class="link" href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+          <span class="label">LinkedIn</span>
+          <span class="mono">@yourprofile</span>
+        </a>
+
+        <a class="link" href="https://instagram.com/yourhandle" target="_blank" rel="noopener">
+          <span class="label">Instagram</span>
+          <span class="mono">@yourhandle</span>
+        </a>
+      </div>
+
+      <footer>
+        Prefer encrypted comms? Share your Signal/PGP details here.
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
