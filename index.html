@@ -6,7 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Contact and links for Chopo.GZ">
   <style>
-    :root { --bg:#0f1216; --card:#151a22; --text:#e6edf3; --muted:#9aa6b2; --accent:#4cc2ff; }
+    <!-- :root { --bg:#0f1216; --card:#151a22; --text:#e6edf3; --muted:#9aa6b2; --accent:#4cc2ff; } -->
+
+    :root { 
+  --bg:#0f1216; 
+  --card:#fffff3;   /* changed */
+  --text:#b1282b;   /* changed */
+  --muted:#9aa6b2; 
+  --accent:#4cc2ff; 
+}
+    
     * { box-sizing: border-box; }
     body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); }
     .wrap { max-width: 720px; margin: 8vh auto; padding: 24px; }
@@ -14,7 +23,9 @@
     h1 { margin:0 0 8px; font-size: 1.8rem; }
     p.subtitle { margin:0 0 18px; color:var(--muted); }
     .grid { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
-    .link { display:block; padding:14px 16px; border:1px solid #273043; border-radius:10px; background:#10161f; color:var(--text); text-decoration:none; transition: border-color .2s, transform .1s; }
+<!--    .link { display:block; padding:14px 16px; border:1px solid #273043; border-radius:10px; background:#10161f; color:var(--text); text-decoration:none; transition: border-color .2s, transform .1s; }
+-->
+    .link { display:block; padding:14px 16px; border:0px solid #273043; border-radius:10px; background:#EDEDEB; color:var(--text); text-decoration:none; transition: border-color .2s, transform .1s; }
     .link:hover { border-color:var(--accent); transform: translateY(-1px); }
     .label { display:block; font-size:.85rem; color:var(--muted); margin-bottom:6px; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size:.95rem; }
